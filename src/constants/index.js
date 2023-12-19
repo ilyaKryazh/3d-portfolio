@@ -18,6 +18,8 @@ import {
   threejs,
 } from "../assets";
 
+export default []
+
 export const navLinks = [
   {
     id: "about",
@@ -33,7 +35,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+export const services = [
   {
     title: "Web Developer",
     icon: web,
