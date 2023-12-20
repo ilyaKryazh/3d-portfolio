@@ -18,8 +18,6 @@ import {
   threejs,
 } from "../assets";
 
-export default []
-
 export const navLinks = [
   {
     id: "about",
@@ -101,7 +99,7 @@ const technologies = [
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
     title: "Developer",
     company_name: "Company_name",

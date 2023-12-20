@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toogle, setToogle] = useState(false)
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-1 fixed top-0 z-10 bg-white`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-1 fixed top-0 z-10 bg-black`}>
       <div className='w-full flex justify-between items-center max-w-7xl '>
         <Link to="/" className='flex items-center gap-2' onClick={() => {
           setActive('')
